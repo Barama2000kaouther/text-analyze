@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   base: '/text-analyze/',
   plugins: [react(), tailwindcss(),],
-  root: './',
+  root: './src',
   build: {
     outDir: 'build',
   },
